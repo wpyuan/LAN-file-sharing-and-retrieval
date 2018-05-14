@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.all {
+	height: 100%;
+	width: 100%;
+	background: #EFF4F8;
+}
+
+.top {
+	height: 80px;
+	width: 100%;
+	/*background-color: #169fe6;
+	border: 1px solid #138cca;*/
+	background-color: #EFF4F8;
+	border-left: none;
+	border-right: none;
+}
+
+.logo {
+	width: 72px;
+	background-image: url("/LAN_file_sharing_and_retrieval/image/logo.png");
+}
+
+.logo-title {
+	font-family: Cursive;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.center {
+	height: 100%;
+	width: 100%;
+}
+
+.menu {
+	vertical-align: top; /* 顶端对齐 */
+	width: 160px;
+}
+
+.menuTitle {
+	text-align: center;
+	height: 50px;
+	cursor: pointer; /*光标为手*/
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	/*border: 1px solid #;*/
+}
+
+.content th {
+	/*text-align: left;*/
+	height: 32px;
+}
+
+.input-search{
+	height: 98.9%;
+	width:99.9%;
+	border: 1px solid #c2c2c2;
+	
+}
+
+.content table {
+	color: #424E67;
+}
+
+
+/*****************************/
+/*tr {
+	height: 32px;
+}
+.fileType {
+	text-align: center;
+	color: #424E67;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Cursive;
+	width: 32px;
+	background-image:
+		url("/LAN_file_sharing_and_retrieval/image/fileType.png");
+	background-repeat: no-repeat;
+}*/

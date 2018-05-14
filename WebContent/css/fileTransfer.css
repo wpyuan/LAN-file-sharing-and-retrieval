@@ -1,0 +1,60 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	/*border: 1px solid #;*/
+}
+
+table {
+	width: 600px;
+	color: #d2d2d2;;
+}
+
+.circle {
+	width: 36px;
+	height: 36px;
+	background-color: #d2d2d2;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-align: center;
+	color: #a7a7a7;
+}
+
+.currentCircle {
+	width: 36px;
+	height: 36px;
+	background-color: green;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-align: center;
+	color: #a7a7a7;
+}
+
+.currentProcess {
+	color: green;
+}
+
+.rect {
+	width: 200%;
+	height: 15px;
+	background-color: #c2c2c2;
+}
+
+.currentRect {
+	width: 200%;
+	height: 15px;
+	background-color: RGBA(0, 255, 0, 1);
+}

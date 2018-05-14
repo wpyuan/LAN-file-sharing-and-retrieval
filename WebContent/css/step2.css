@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	
+}
+
+.content, tr {
+	height: 32px;
+}
+
+th {
+	text-align: left;
+}
+
+input {
+	height: 98.9%;
+	width: 99.9%;
+	border: 1.5px solid #c2c2c2;
+}
+
+table {
+	color: #424E67;
+}
+
+.fileType {
+	text-align: center;
+	color: #424E67;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Cursive;
+	width: 32px;
+	background-image:
+		url("/LAN_file_sharing_and_retrieval/image/fileType.png");
+	background-repeat: no-repeat;
+}
